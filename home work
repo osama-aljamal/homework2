@@ -1,0 +1,162 @@
+
+#include "stdafx.h"
+#include "Student.h"
+#include "dector.h"
+#include "Academic.h"
+#include <iostream>;
+#include <string>;
+
+using namespace std;
+
+
+int main();
+{
+	dector samer;
+	dector ahmad;
+	dector rakan;
+	dector hasan;
+
+
+	rakan.id = 342107144;
+		int Specialty;
+	rakan.dectorname = "dr.........";
+
+	ahmad.id = 321654;
+		int Specialty;
+	ahmad.dectorname = "dr.........";
+
+
+	samer.id = 3516123;
+		int Specialty;
+samer.dectorname = "dr.........";
+
+
+hasan.id = 1235;
+		int Specialty;
+		hasan.dectorname = ".......";
+	
+	
+	Student osama;
+	Student rakan;
+	Student ali;
+	Student mohd;       
+	Student samer;
+	
+
+	osama.id = 342107144;
+		osama.level = 4;
+	osama.doctorname = "dr.........";
+	osama = 0;
+
+	ali.id = 321654;
+		ali.level = 4;
+	ali.doctorname = "dr.........";
+
+
+	mohd.id = 3516123;
+		mohd.level = 4;
+	mohd.doctorname = "dr.........";
+	
+
+
+	samer.id = 1235;
+		samer.level = 4;
+	samer.doctorname = "dr.........";
+
+	Academic samer
+		Academic ahmad
+
+		samer.id = 65414145;
+	    ahmad.id = 65414145;
+
+
+    return 0;
+};
+
+#include "Student.h"
+#include "stdafx.h"
+#include "Student.h"
+#include "dector.h"
+#include <iostream>;
+#include <string>;
+class student {
+
+	int id;
+	string studentname;
+	string dectorname;
+	float GPA;
+	int level;
+	string specializationt;
+	string subjects{ 5 };
+	string acadewic5upervisor;
+
+	bool egistercours(string);
+	float calculategpa(int[]);
+
+};
+
+Student::Student()
+{
+}
+
+
+Student::~Student()
+{
+}
+#include "Student.h"
+#include "stdafx.h"
+#include "Academic.h"
+#include <iostream>;
+#include <string>;
+class Academic
+{
+public:
+	Academic();
+	~Academic();
+
+	int ID;
+	string Academic;
+	int Specialty;
+
+};
+#include "stdafx.h"
+#include "dector.h"
+#include <iostream>
+#include <string>
+
+
+using namespace std;
+
+
+dector::dector();
+{
+	int main()
+
+};
+
+
+dector::~dector();
+{
+};
+
+dector::~dector()
+{
+}
+#include "dector.h"
+#include <string>
+class dector
+{
+public:
+	dector();
+	~dector();
+
+
+	int ID;
+	string dectorname;
+	int Specialty;
+
+	void teachcourse(string);
+	void teachlecture(string.string.string);
+
+};
+
